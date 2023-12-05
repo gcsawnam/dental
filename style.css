@@ -601,3 +601,28 @@ html {
     font-size: 14px;
     margin-left: 7px;
   }
+
+  .foot-nav-phon::before {
+    content: "\f095"; /* Unicode for the specific Font Awesome icon */
+    color: #3498db; /* Set the color */
+    font-size: 15px; /* Set the size of the icon */
+    margin-right: 0.5em; /* Adjust spacing */
+    font-family: 'Font Awesome 5 Free', sans-serif; /* Set the font-family specifically for this icon */
+    font-weight: 600; 
+}
+.foot-nav-mail::before {
+  content: "\f0e0"; /* Unicode for the specific Font Awesome icon */
+  color: #3498db; /* Set the color */
+  font-size: 15px; /* Set the size of the icon */
+  margin-right: 0.5em; /* Adjust spacing */
+  font-family: 'Font Awesome 5 Free', sans-serif; /* Set the font-family specifically for this icon */
+  font-weight: 600; 
+}
+.foot-nav-web::before {
+  content: "\f0ac"; /* Unicode for the specific Font Awesome icon */
+  color: #3498db; /* Set the color */
+  font-size: 15px; /* Set the size of the icon */
+  margin-right: 0.5em; /* Adjust spacing */
+  font-family: 'Font Awesome 5 Free', sans-serif; /* Set the font-family specifically for this icon */
+  font-weight: 600; 
+}
