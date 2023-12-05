@@ -626,3 +626,8 @@ html {
   font-family: 'Font Awesome 5 Free', sans-serif; /* Set the font-family specifically for this icon */
   font-weight: 600; 
 }
+
+.btn-trasparent a {
+  background-color: transparent;
+  border: 2px solid;
+}

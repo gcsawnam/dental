@@ -82,55 +82,22 @@ span.page-numbers.dots + a.page-numbers{
     margin: 10px 4px;
 }
 
-.wc-contact-form .wpcf7 form p span .wpcf7-form-control.wpcf7-textarea{
-    width: 92%;
-    padding: 12px 10px;
-    margin: 10px 4px;
-}
-
-.wpcf7-form-control.wpcf7-submit.has-spinner{
-    padding: 18px 17px;
-    background-color: var(--wp--preset--color--hover);
-    color: #fff;
-    border: none;
+/* scrool to top */
+.boost-scrool-top::before{
+    font-size: 22px;
+    padding: 3px 17px;
     cursor: pointer;
+    background: var(--wp--preset--color--hover);
+    color: white;
+    content: "\f106"; /* Specify the Unicode character for the desired icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
 }
-.wpcf7-form-control.wpcf7-submit.has-spinner:hover{
-    background-color: var(--wp--preset--color--button-hover);
-}
-/* contact form 7 end*/
-
-/* Navigation */
-.wp-block-navigation-item__label:hover, .wp-block-navigation-item__content:hover{
-    color: var(--wp--preset--color--hover)!important;
-}
-/* Navigatio End */
-
-.wc-block-mini-cart.wp-block-woocommerce-mini-cart{
-    cursor: pointer;
+.boost-scrool-top:hover::before{
+  background: var(--wp--preset--color--button-hover);
 }
 
-.wc-booster-sticky-btn .add-to-cart{ 
-    background-color: var(--wp--preset--color--hover);
-    color: #fff;
-}
-
-.wc-booster-sticky-btn .add-to-cart:hover{
-background-color: var(--wp--preset--color--button-hover);
-}
-
-.wc-booster-upsells-wrapper .wc-booster-upsells-products li .button{
-    color:#fff!important;
-}
-.comment-form-author input{
-    width:100%;
-    padding:12px;
-}
-.comment-form-email input{
-    width:100%;
-    padding:12px;
-}
-
-.home a , .wp-block-site-title a ,.site-sidebar  a, .site-footer a{
- text-decoration: none!important;
-}
+/* scrool to top */

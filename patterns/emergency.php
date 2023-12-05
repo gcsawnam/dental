@@ -12,7 +12,7 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":10476,"width":"50px","height":"50px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost/corporate/wp-content/uploads/2023/12/first-aid-kit.png" alt="" class="wp-image-10476" style="object-fit:cover;width:50px;height:50px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/first-aid-kit.png" alt="" class="wp-image-10476" style="object-fit:cover;width:50px;height:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"12px"} -->
@@ -34,7 +34,7 @@
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":10497,"width":"50px","height":"50px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost/corporate/wp-content/uploads/2023/12/pin.png" alt="" class="wp-image-10497" style="object-fit:cover;width:50px;height:50px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/pin.png" alt="" class="wp-image-10497" style="object-fit:cover;width:50px;height:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"12px"} -->
@@ -56,7 +56,7 @@
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":10498,"width":"50px","height":"50px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost/corporate/wp-content/uploads/2023/12/booking.png" alt="" class="wp-image-10498" style="object-fit:cover;width:50px;height:50px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/booking.png" alt="" class="wp-image-10498" style="object-fit:cover;width:50px;height:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"12px"} -->
@@ -78,7 +78,7 @@
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":10499,"width":"50px","height":"50px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost/corporate/wp-content/uploads/2023/12/mail.png" alt="" class="wp-image-10499" style="object-fit:cover;width:50px;height:50px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/mail.png" alt="" class="wp-image-10499" style="object-fit:cover;width:50px;height:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"12px"} -->

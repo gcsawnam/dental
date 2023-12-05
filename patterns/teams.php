@@ -19,7 +19,7 @@
 <div class="wp-block-getwid-content-slider alignwide has-arrows-none has-dots-none" data-autoplay="true" data-infinite="true" data-arrows="none" data-dots="none" data-slides-show="4"><div class="wp-block-getwid-content-slider__wrapper"><!-- wp:getwid/content-slider-slide -->
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"className":"fhs-team-box","layout":{"type":"constrained"}} -->
 <div class="wp-block-group fhs-team-box" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:image {"align":"wide","id":128,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"10px"}},"className":"is-style-fotawp-boxshadow-hover"} -->
-<figure class="wp-block-image alignwide size-full has-custom-border is-style-fotawp-boxshadow-hover"><img src="http://localhost/project/wp-content/uploads/2023/12/doctor1.png" alt="" class="wp-image-128" style="border-radius:10px;aspect-ratio:3/4;object-fit:cover"/></figure>
+<figure class="wp-block-image alignwide size-full has-custom-border is-style-fotawp-boxshadow-hover"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/doctor1.png" alt="" class="wp-image-128" style="border-radius:10px;aspect-ratio:3/4;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}},"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"medium"} -->
@@ -35,7 +35,7 @@
 <!-- wp:getwid/content-slider-slide -->
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"className":"fhs-team-box","layout":{"type":"constrained"}} -->
 <div class="wp-block-group fhs-team-box" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:image {"align":"wide","id":130,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"10px"}},"className":"is-style-fotawp-boxshadow-hover"} -->
-<figure class="wp-block-image alignwide size-full has-custom-border is-style-fotawp-boxshadow-hover"><img src="http://localhost/project/wp-content/uploads/2023/12/doctor-3.png" alt="" class="wp-image-130" style="border-radius:10px;aspect-ratio:3/4;object-fit:cover"/></figure>
+<figure class="wp-block-image alignwide size-full has-custom-border is-style-fotawp-boxshadow-hover"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/doctor-3.png" alt="" class="wp-image-130" style="border-radius:10px;aspect-ratio:3/4;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}},"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"medium"} -->
@@ -51,7 +51,7 @@
 <!-- wp:getwid/content-slider-slide -->
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"className":"fhs-team-box","layout":{"type":"constrained"}} -->
 <div class="wp-block-group fhs-team-box" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:image {"align":"wide","id":129,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"10px"}},"className":"is-style-fotawp-boxshadow-hover"} -->
-<figure class="wp-block-image alignwide size-full has-custom-border is-style-fotawp-boxshadow-hover"><img src="http://localhost/project/wp-content/uploads/2023/12/doctor2.png" alt="" class="wp-image-129" style="border-radius:10px;aspect-ratio:3/4;object-fit:cover"/></figure>
+<figure class="wp-block-image alignwide size-full has-custom-border is-style-fotawp-boxshadow-hover"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/doctor2.png" alt="" class="wp-image-129" style="border-radius:10px;aspect-ratio:3/4;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}},"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"medium"} -->
@@ -67,7 +67,7 @@
 <!-- wp:getwid/content-slider-slide -->
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"className":"fhs-team-box","layout":{"type":"constrained"}} -->
 <div class="wp-block-group fhs-team-box" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:image {"align":"wide","id":131,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"10px"}},"className":"is-style-fotawp-boxshadow-hover"} -->
-<figure class="wp-block-image alignwide size-full has-custom-border is-style-fotawp-boxshadow-hover"><img src="http://localhost/project/wp-content/uploads/2023/12/doctor-4.png" alt="" class="wp-image-131" style="border-radius:10px;aspect-ratio:3/4;object-fit:cover"/></figure>
+<figure class="wp-block-image alignwide size-full has-custom-border is-style-fotawp-boxshadow-hover"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/doctor-4.png" alt="" class="wp-image-131" style="border-radius:10px;aspect-ratio:3/4;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}},"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"medium"} -->
@@ -83,7 +83,7 @@
 <!-- wp:getwid/content-slider-slide -->
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"className":"fhs-team-box","layout":{"type":"constrained"}} -->
 <div class="wp-block-group fhs-team-box" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:image {"align":"wide","id":134,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"10px"}},"className":"is-style-fotawp-boxshadow-hover"} -->
-<figure class="wp-block-image alignwide size-full has-custom-border is-style-fotawp-boxshadow-hover"><img src="http://localhost/project/wp-content/uploads/2023/12/doctor5.png" alt="" class="wp-image-134" style="border-radius:10px;aspect-ratio:3/4;object-fit:cover"/></figure>
+<figure class="wp-block-image alignwide size-full has-custom-border is-style-fotawp-boxshadow-hover"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/doctor5.png" alt="" class="wp-image-134" style="border-radius:10px;aspect-ratio:3/4;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}},"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"medium"} -->
