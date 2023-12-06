@@ -39,12 +39,14 @@ if ( ! function_exists( 'dental_enqueue_scripts_and_styles' ) ) :
 		$styles = array(
 			'dental-style'         => array(get_stylesheet_uri(), array(), $version),
 			'dental-custom-css'    => array($template_assets_dir . '/css/custom.css', array(), $version),
+			'dental-animate'       => array($template_assets_dir . '/css/animate' . $min . '.css', array(), '3.7.0'),
 			'dental-fontawesome'   => array($template_assets_dir . '/css/font-awesome/css/all.css', array(), "5.15.3")	
 		);
 
 		// Scripts
 		$scripts = array(
 			'dental-custom'  => array($template_assets_dir . '/js/custom.js', array('jquery'), '1.0.0', true),
+			'dental-wow-js'        => array($template_assets_dir . '/js/wow' . $min . '.js', array(), '1.1.2', true),
 		);
 
 		// Enqueue Styles

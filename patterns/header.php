@@ -13,7 +13,7 @@
 <div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-base-background-color has-background" style="border-radius:10px;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:image {"id":147,"width":"30px","height":"auto","sizeSlug":"full","linkDestination":"none","style":{"color":{}},"className":"is-resized is-style-default"} -->
-<figure class="wp-block-image size-full is-resized is-style-default"><img src="https://buddhahospital.com.np/wp-content/themes/Meddic/assets/images/phone-call.png" alt="" class="wp-image-147" style="width:30px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/phone-call.png" alt="" class="wp-image-147" style="width:30px;height:auto"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -45,7 +45,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-tertiary-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:column {"verticalAlignment":"center","width":"72%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:72%"><!-- wp:navigation {"ref":4,"style":{"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"500","lineHeight":"1"},"spacing":{"blockGap":"0.55rem"}},"fontFamily":"hind"} /--></div>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:72%"><!-- wp:navigation {"style":{"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"500","lineHeight":"1"},"spacing":{"blockGap":"0.55rem"}},"fontFamily":"hind"} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"35%"} -->

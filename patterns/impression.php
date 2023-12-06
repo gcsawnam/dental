@@ -14,7 +14,7 @@
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":84,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="http://localhost/project/wp-content/uploads/2023/12/i4ntv.png" alt="" class="wp-image-84"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/i4ntv.png" alt="" class="wp-image-84"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
