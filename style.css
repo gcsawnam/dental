@@ -506,7 +506,7 @@ html {
   }
   
   form.wpcf7-form 
-  input,form .wpcf7-textarea {
+  input,form .wpcf7-textarea , .wpcf7-form-control-wrap select{
     padding: 12px 20px 12px 20px;
       margin: 0px 0px 0px 0px;
       border-radius: 10px;
