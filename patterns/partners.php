@@ -37,19 +37,19 @@
 
 <!-- wp:getwid/content-slider-slide -->
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:image {"id":97,"width":"141px","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/bromo-5-300x56-1.png" alt="" class="wp-image-97" style="width:141px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/sponser3.png" alt="" class="wp-image-97" style="width:141px"/></figure>
 <!-- /wp:image --></div></div>
 <!-- /wp:getwid/content-slider-slide -->
 
 <!-- wp:getwid/content-slider-slide -->
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:image {"id":98,"width":"141px","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/wagoda-3-300x72-1.png" alt="" class="wp-image-98" style="width:141px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/sponser4.png" alt="" class="wp-image-98" style="width:141px"/></figure>
 <!-- /wp:image --></div></div>
 <!-- /wp:getwid/content-slider-slide -->
 
 <!-- wp:getwid/content-slider-slide -->
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:image {"id":99,"width":"141px","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/nature-2-300x72-1.png" alt="" class="wp-image-99" style="width:141px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/sponser5.png" alt="" class="wp-image-99" style="width:141px"/></figure>
 <!-- /wp:image --></div></div>
 <!-- /wp:getwid/content-slider-slide --></div></div>
 <!-- /wp:getwid/content-slider -->

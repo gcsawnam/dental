@@ -15,7 +15,7 @@
 <div class="wp-block-cover alignfull is-light" style="min-height:430px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-76" alt="" src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/background-doctor.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:columns {"align":"full"} -->
 <div class="wp-block-columns alignfull"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"lightbox":{"enabled":false},"id":77,"scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"5px"}},"className":"is-resized"} -->
-<figure class="wp-block-image size-full has-custom-border is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/doctor-768x1026-1.png" alt="" class="wp-image-77" style="border-radius:5px;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full has-custom-border is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/doctorap.png" alt="" class="wp-image-77" style="border-radius:5px;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
