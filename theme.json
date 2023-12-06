@@ -40,53 +40,105 @@
 			"dropCap": false,
 			"fontFamilies": [
 				{
-					"fontFamily": "'Lexend Deca', sans-serif",
-					"name": "lexend",
-					"slug": "lexend",
+					"fontFamily": "'Kanit', sans-serif",
+					"name": "kanit",
+					"slug": "kanit",
 					"fontFace": [
 						{
-							"fontFamily": "Lexend Deca",
+							"fontFamily": "Kanit",
 							"fontWeight": "300",
 							"fontStyle": "normal",
 							"fontStretch": "",
 							"src": [
-								"file:./assets/font/static/LexendDeca-Light.ttf"
+								"file:./assets/fonts/static/Kanit-Light.ttf"
 							]
 						},
 						{
-							"fontFamily": "Lexend Deca",
+							"fontFamily": "Kanit",
 							"fontWeight": "400",
 							"fontStyle": "normal",
 							"fontStretch": "",
 							"src": [
-								"file:./assets/font/static/LexendDeca-Regular.ttf"
+								"file:./assets/fonts/static/Kanit-Regular.ttf"
 							]
 						},
 						{
-							"fontFamily": "Lexend Deca",
+							"fontFamily": "Kanit",
 							"fontWeight": "500",
 							"fontStyle": "normal",
 							"fontStretch": "",
 							"src": [
-								"file:./assets/font/static/LexendDeca-Medium.ttf"
+								"file:./assets/fonts/static/Kanit-Medium.ttf"
 							]
 						},
 						{
-							"fontFamily": "Lexend Deca",
+							"fontFamily": "Kanit",
 							"fontWeight": "600",
 							"fontStyle": "normal",
 							"fontStretch": "",
 							"src": [
-								"file:./assets/font/static/LexendDeca-SemiBold.ttf"
+								"file:./assets/fonts/static/Kanit-SemiBold.ttf"
 							]
 						},
 						{
-							"fontFamily": "Lexend Deca",
+							"fontFamily": "Kanit",
 							"fontWeight": "700",
 							"fontStyle": "normal",
 							"fontStretch": "",
 							"src": [
-								"file:./assets/font/static/LexendDeca-Bold.ttf"
+								"file:./assets/fonts/static/Kanit-Bold.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Poppins, sans-serif",
+					"name": "Poppins",
+					"slug": "poppins",
+					"fontFace": [
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-Bold.ttf"
 							]
 						}
 					]
@@ -211,7 +263,7 @@
 		},
 		"typography": {
 			"fontSize": "var(--wp--preset--font-size--medium)",
-			"fontFamily": "var(--wp--preset--font-family--lexend) ",
+			"fontFamily": "var(--wp--preset--font-family--poppins) ",
 			"lineHeight": "1.625rem",
             "fontWeight": "400"
 		},

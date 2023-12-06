@@ -46,6 +46,7 @@ if ( ! function_exists( 'dental_enqueue_scripts_and_styles' ) ) :
 		// Scripts
 		$scripts = array(
 			'dental-custom'  => array($template_assets_dir . '/js/custom.js', array('jquery'), '1.0.0', true),
+			'denta-field'  => array($template_assets_dir . '/js/field.js', array('jquery'), '1.0.0', true),
 			'dental-wow-js'        => array($template_assets_dir . '/js/wow' . $min . '.js', array(), '1.1.2', true),
 		);
 
