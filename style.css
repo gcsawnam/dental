@@ -449,9 +449,7 @@ html {
   }
   
   /* button css  */
-  .wp-element-button:hover, .wp-block-button__link:hover{
-    transform: scale(1.1);
-  }
+ 
   .medical-facilities{
     --background-transition: 0.3s;
     border-style: solid;
@@ -595,7 +593,7 @@ html {
 
   /* button css goes here  */
   .dental-care-icons a::after{
-    content: "\f061";
+    content: "\f101";
     font-family: "Font Awesome 5 Free";
     font-weight: 600;
     font-size: 14px;
@@ -630,4 +628,74 @@ html {
 .btn-trasparent a {
   background-color: transparent;
   border: 2px solid;
+}
+
+/* Your general styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* Add other styles as needed */
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  transition: top 0.1s ease-in-out, opacity 0.1s ease-in-out;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+  background-color: #fff;
+  
+}
+
+.hidden {
+   /* Adjust this value to slide the header down by your desired amount */
+  top: 0;
+  
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInDown{
+0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}
+100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}}
+.my1 {
+  margin-block: 10px !important;
+}
+.clip-star {
+  background: #EBAB75;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  display: inline-block;
+  height: 23px;
+  width: 25px;
+}
+.patient-experience{
+  position: relative;
+}
+.pat-ex-img{
+  position: absolute;
+  top: -60px;
 }

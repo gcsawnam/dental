@@ -14,7 +14,7 @@
 				},
                  {
 					"slug": "hover",
-					"color": "#BC74A5",
+					"color": "#E8D9B1",
                     "name": "Hover"
                   },
                   {
@@ -24,7 +24,7 @@
                    },
 				   {
 					 "slug": "button-hover",
-					 "color": "#0E54AECF",
+					 "color": "#000",
 					 "name": "Button Hover"
 					}
 			]
@@ -323,12 +323,12 @@
 				},
 
 				"color": {
-					"text": "var(--wp--preset--color--background)",
+					"text": "var(--wp--preset--color--button-hover)",
 					"background":"var(--wp--preset--color--hover)"
 				},
 				":hover": {
 					"color": {
-		               	"text":"var(--wp--preset--color--background)",
+		               	"text":"var(--wp--preset--color--hover)",
 		                "background": "var(--wp--preset--color--button-hover)"
 					}
 					

@@ -4,58 +4,32 @@
  * Slug: dental/partners
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"},"blockGap":"0","margin":{"top":"0","bottom":"0px"}}},"className":"sponsor-section","layout":{"type":"default"}} -->
-<div class="wp-block-group sponsor-section" style="margin-top:0;margin-bottom:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:separator {"align":"full","style":{"color":{"background":"#616a854a"}},"className":"is-style-wide"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0px","right":"var:preset|spacing|30","bottom":"0px","left":"var:preset|spacing|30"},"blockGap":"0","margin":{"top":"0","bottom":"0px"}}},"className":"sponsor-section","layout":{"type":"default"}} -->
+<div class="wp-block-group sponsor-section" style="margin-top:0;margin-bottom:0px;padding-top:0px;padding-right:var(--wp--preset--spacing--30);padding-bottom:0px;padding-left:var(--wp--preset--spacing--30)"><!-- wp:separator {"align":"full","style":{"color":{"background":"#616a854a"}},"className":"is-style-wide"} -->
 <hr class="wp-block-separator alignfull has-text-color has-alpha-channel-opacity has-background is-style-wide" style="background-color:#616a854a;color:#616a854a"/>
 <!-- /wp:separator -->
 
-<!-- wp:spacer {"height":"25px"} -->
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"60px"} -->
+<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"14px"}},"textColor":"body-text"} -->
-<h3 class="wp-block-heading has-text-align-center has-body-text-color has-text-color" style="font-size:14px">OUR CLINIC PARTNERS</h3>
-<!-- /wp:heading -->
+<!-- wp:separator {"align":"full","style":{"color":{"background":"#616a854a"}},"className":"is-style-wide"} -->
+<hr class="wp-block-separator alignfull has-text-color has-alpha-channel-opacity has-background is-style-wide" style="background-color:#616a854a;color:#616a854a"/>
+<!-- /wp:separator -->
 
-<!-- wp:spacer {"height":"50px"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:spacer {"height":"50px"} -->
 <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:getwid/content-slider -->
-<div class="wp-block-getwid-content-slider has-arrows-none has-dots-none" data-autoplay="true" data-infinite="true" data-arrows="none" data-dots="none" data-slides-show="4"><div class="wp-block-getwid-content-slider__wrapper"><!-- wp:getwid/content-slider-slide -->
-<div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:image {"id":95,"width":"141px","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/sponser1.png" alt="" class="wp-image-95" style="width:141px"/></figure>
-<!-- /wp:image --></div></div>
-<!-- /wp:getwid/content-slider-slide -->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:image {"id":189,"width":"762px","height":"auto","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
+<figure class="wp-block-image size-full is-resized"><img src="http://localhost/project/wp-content/uploads/2023/12/featured_on_resize_1.png" alt="" class="wp-image-189" style="width:762px;height:auto"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
 
-<!-- wp:getwid/content-slider-slide -->
-<div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:image {"id":96,"width":"141px","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/sponser2.png" alt="" class="wp-image-96" style="width:141px"/></figure>
-<!-- /wp:image --></div></div>
-<!-- /wp:getwid/content-slider-slide -->
-
-<!-- wp:getwid/content-slider-slide -->
-<div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:image {"id":97,"width":"141px","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/sponser3.png" alt="" class="wp-image-97" style="width:141px"/></figure>
-<!-- /wp:image --></div></div>
-<!-- /wp:getwid/content-slider-slide -->
-
-<!-- wp:getwid/content-slider-slide -->
-<div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:image {"id":98,"width":"141px","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/sponser4.png" alt="" class="wp-image-98" style="width:141px"/></figure>
-<!-- /wp:image --></div></div>
-<!-- /wp:getwid/content-slider-slide -->
-
-<!-- wp:getwid/content-slider-slide -->
-<div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper"><!-- wp:image {"id":99,"width":"141px","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/sponser5.png" alt="" class="wp-image-99" style="width:141px"/></figure>
-<!-- /wp:image --></div></div>
-<!-- /wp:getwid/content-slider-slide --></div></div>
-<!-- /wp:getwid/content-slider -->
-
-<!-- wp:spacer {"height":"25px"} -->
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"50px"} -->
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:group -->
 
