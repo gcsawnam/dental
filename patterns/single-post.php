@@ -35,7 +35,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"border":{"width":"1px"}},"borderColor":"hover","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group has-border-color has-hover-border-color" style="border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:paragraph {"style":{"typography":{"fontSize":"0.75rem","fontStyle":"normal","fontWeight":"600"}},"className":"post-border-bottom"} -->
-<p class="post-border-bottom" style="font-size:0.75rem;font-style:normal;font-weight:600">ORAL HEALTH</p>
+<p class="post-border-bottom" style="font-size:0.75rem;font-style:normal;font-weight:600"><?php echo esc_html__( 'ORAL HEALTH', 'dental' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-title {"isLink":true,"style":{"typography":{"fontSize":"1.5rem","fontStyle":"normal","fontWeight":"600","lineHeight":"1.4"},"elements":{"link":{"color":{"text":"#1a3743"}}},"color":{"text":"#1a3743"}}} /-->

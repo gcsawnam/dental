@@ -11,7 +11,7 @@
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"38px"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontFamily":"kanit"} -->
-<h2 class="wp-block-heading has-text-align-center has-background-color has-text-color has-link-color has-kanit-font-family" style="font-size:38px">Meet Our Doctor</h2>
+<h2 class="wp-block-heading has-text-align-center has-background-color has-text-color has-link-color has-kanit-font-family" style="font-size:38px"><?php echo esc_html__( 'Meet Our Doctor', 'dental' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -23,11 +23,11 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":207,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50%"}}} -->
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img src="http://localhost/project/wp-content/uploads/2023/12/profile-5t-2.jpg" alt="" class="wp-image-207" style="border-radius:50%"/></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/profile-5t-2.jpg" alt="" class="wp-image-207" style="border-radius:50%"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontSize":"30px","fontStyle":"normal","fontWeight":"300"}},"textColor":"background"} -->
-<h2 class="wp-block-heading has-text-align-center has-background-color has-text-color has-link-color" style="font-size:30px;font-style:normal;font-weight:300">Mathew Brooks</h2>
+<h2 class="wp-block-heading has-text-align-center has-background-color has-text-color has-link-color" style="font-size:30px;font-style:normal;font-weight:300"><?php echo esc_html__( 'Mathew Brooks', 'dental' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"textAlign":"center","level":5,"style":{"elements":{"link":{"color":{"text":"#5bffff"}}},"color":{"text":"#5bffff"},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"300"},"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
@@ -41,11 +41,11 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":210,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50%"}}} -->
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img src="http://localhost/project/wp-content/uploads/2023/12/profile-2t-2.jpg" alt="" class="wp-image-210" style="border-radius:50%"/></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/profile-2t-2.jpg" alt="" class="wp-image-210" style="border-radius:50%"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"30px","fontStyle":"normal","fontWeight":"300"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background"} -->
-<h2 class="wp-block-heading has-text-align-center has-background-color has-text-color has-link-color" style="font-size:30px;font-style:normal;font-weight:300">Megan Clark</h2>
+<h2 class="wp-block-heading has-text-align-center has-background-color has-text-color has-link-color" style="font-size:30px;font-style:normal;font-weight:300"><?php echo esc_html__( 'Megan Clark', 'dental' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"textAlign":"center","level":5,"style":{"color":{"text":"#5bffff"},"elements":{"link":{"color":{"text":"#5bffff"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"300"},"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
@@ -59,11 +59,11 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":211,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50%"}}} -->
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img src="http://localhost/project/wp-content/uploads/2023/12/profile-1t-2.jpg" alt="" class="wp-image-211" style="border-radius:50%"/></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/profile-1t-2.jpg" alt="" class="wp-image-211" style="border-radius:50%"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontSize":"30px","fontStyle":"normal","fontWeight":"300"}},"textColor":"background"} -->
-<h2 class="wp-block-heading has-text-align-center has-background-color has-text-color has-link-color" style="font-size:30px;font-style:normal;font-weight:300">Paul Hill</h2>
+<h2 class="wp-block-heading has-text-align-center has-background-color has-text-color has-link-color" style="font-size:30px;font-style:normal;font-weight:300"><?php echo esc_html__( 'Paul Hill', 'dental' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"textAlign":"center","level":5,"style":{"color":{"text":"#5bffff"},"elements":{"link":{"color":{"text":"#5bffff"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"300"},"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
