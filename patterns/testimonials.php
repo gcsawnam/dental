@@ -11,11 +11,11 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"45px","fontStyle":"normal","fontWeight":"600"}},"fontFamily":"kanit"} -->
-<h2 class="wp-block-heading has-text-align-center has-kanit-font-family" style="font-size:45px;font-style:normal;font-weight:600">Patient Experience</h2>
+<h2 class="wp-block-heading has-text-align-center has-kanit-font-family" style="font-size:45px;font-style:normal;font-weight:600"><?php echo esc_html__( 'Patient Experience', 'dental' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px","fontStyle":"normal","fontWeight":"400"}}} -->
-<p class="has-text-align-center" style="font-size:18px;font-style:normal;font-weight:400">We’re so proud to be your preferred (and highly referred) dental partner!</p>
+<p class="has-text-align-center" style="font-size:18px;font-style:normal;font-weight:400"><?php echo esc_html__( 'We’re so proud to be your preferred (and highly referred) dental partner!', 'dental' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"112px"} -->
@@ -27,11 +27,11 @@
 <div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:columns {"className":"patient-experience"} -->
 <div class="wp-block-columns patient-experience"><!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"border":{"color":"#ebab75","width":"1px"}}} -->
 <div class="wp-block-column has-border-color" style="border-color:#ebab75;border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><!-- wp:image {"sizeSlug":"large","className":"pat-ex-img"} -->
-<figure class="wp-block-image size-large pat-ex-img"><img src="https://www.perlsmile.co/wp-content/uploads/2022/09/perismile_quote.svg" alt=""/></figure>
+<figure class="wp-block-image size-large pat-ex-img"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/perismile_quote.svg" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"color":{"text":"#ebab75"},"elements":{"link":{"color":{"text":"#ebab75"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"500"},"spacing":{"margin":{"top":"70px"}}},"fontFamily":"kanit"} -->
-<h2 class="wp-block-heading has-text-color has-link-color has-kanit-font-family" style="color:#ebab75;margin-top:70px;font-size:20px;font-style:normal;font-weight:500">Sam Gordan</h2>
+<h2 class="wp-block-heading has-text-color has-link-color has-kanit-font-family" style="color:#ebab75;margin-top:70px;font-size:20px;font-style:normal;font-weight:500"><?php echo esc_html__( 'Sam Gordan', 'dental' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:html -->
@@ -45,17 +45,17 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>Dr. Perlow and his whole team are the best in town! I trust them wholeheartedly and know that I am receiving the best care tailored to what is right for me. Besides being absolute professionals, they are all so welcoming and pleasant to work with. I cannot recommend Dr. Perlow and Perl Smile enough!</p>
+<p><?php echo esc_html__( 'Dr. Perlow and his whole team are the best in town! I trust them wholeheartedly and know that I am receiving the best care tailored to what is right for me. Besides being absolute professionals, they are all so welcoming and pleasant to work with. I cannot recommend Dr. Perlow and Perl Smile enough!', 'dental' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"border":{"color":"#ebab75","width":"1px"}}} -->
 <div class="wp-block-column has-border-color" style="border-color:#ebab75;border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><!-- wp:image {"sizeSlug":"large","className":"pat-ex-img"} -->
-<figure class="wp-block-image size-large pat-ex-img"><img src="https://www.perlsmile.co/wp-content/uploads/2022/09/perismile_quote.svg" alt=""/></figure>
+<figure class="wp-block-image size-large pat-ex-img"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/perismile_quote.svg" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"color":{"text":"#ebab75"},"elements":{"link":{"color":{"text":"#ebab75"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"500"},"spacing":{"margin":{"top":"70px"}}},"fontFamily":"kanit"} -->
-<h2 class="wp-block-heading has-text-color has-link-color has-kanit-font-family" style="color:#ebab75;margin-top:70px;font-size:20px;font-style:normal;font-weight:500">Sam Gordan</h2>
+<h2 class="wp-block-heading has-text-color has-link-color has-kanit-font-family" style="color:#ebab75;margin-top:70px;font-size:20px;font-style:normal;font-weight:500"><?php echo esc_html__( 'Sam Gordan', 'dental' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:html -->
@@ -69,17 +69,17 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>Dr. Perlow and his whole team are the best in town! I trust them wholeheartedly and know that I am receiving the best care tailored to what is right for me. Besides being absolute professionals, they are all so welcoming and pleasant to work with. I cannot recommend Dr. Perlow and Perl Smile enough!</p>
+<p><?php echo esc_html__( 'Dr. Perlow and his whole team are the best in town! I trust them wholeheartedly and know that I am receiving the best care tailored to what is right for me. Besides being absolute professionals, they are all so welcoming and pleasant to work with. I cannot recommend Dr. Perlow and Perl Smile enough!', 'dental' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}},"border":{"color":"#ebab75","width":"1px"}}} -->
 <div class="wp-block-column has-border-color" style="border-color:#ebab75;border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><!-- wp:image {"sizeSlug":"large","className":"pat-ex-img"} -->
-<figure class="wp-block-image size-large pat-ex-img"><img src="https://www.perlsmile.co/wp-content/uploads/2022/09/perismile_quote.svg" alt=""/></figure>
+<figure class="wp-block-image size-large pat-ex-img"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/perismile_quote.svg" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"color":{"text":"#ebab75"},"elements":{"link":{"color":{"text":"#ebab75"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"500"},"spacing":{"margin":{"top":"70px"}}},"fontFamily":"kanit"} -->
-<h2 class="wp-block-heading has-text-color has-link-color has-kanit-font-family" style="color:#ebab75;margin-top:70px;font-size:20px;font-style:normal;font-weight:500">Sam Gordan</h2>
+<h2 class="wp-block-heading has-text-color has-link-color has-kanit-font-family" style="color:#ebab75;margin-top:70px;font-size:20px;font-style:normal;font-weight:500"><?php echo esc_html__( 'Sam Gordan', 'dental' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:html -->
@@ -93,7 +93,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>Dr. Perlow and his whole team are the best in town! I trust them wholeheartedly and know that I am receiving the best care tailored to what is right for me. Besides being absolute professionals, they are all so welcoming and pleasant to work with. I cannot recommend Dr. Perlow and Perl Smile enough!</p>
+<p><?php echo esc_html__( 'Dr. Perlow and his whole team are the best in town! I trust them wholeheartedly and know that I am receiving the best care tailored to what is right for me. Besides being absolute professionals, they are all so welcoming and pleasant to work with. I cannot recommend Dr. Perlow and Perl Smile enough!', 'dental' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
