@@ -724,3 +724,10 @@ li:nth-child(even)
   font-family: 'Font Awesome 5 Free', sans-serif; /* Set the font-family specifically for this icon */
   font-weight: 600; 
 }
+.single-post-img:hover{
+  transform: scale(1.1);
+  transition: .2s ease-in-out;
+}
+.single-post-over-flow-hidden{
+  overflow: hidden;
+}
