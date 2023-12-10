@@ -10,7 +10,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|black"}}}},"textColor":"black"} -->
-<p class="has-text-align-center has-black-color has-text-color has-link-color" style="font-size:16px;font-style:normal;font-weight:600">Creating Brighter Smiles</p>
+<p class="has-text-align-center has-black-color has-text-color has-link-color" style="font-size:16px;font-style:normal;font-weight:600"><?php echo esc_html__( 'Creating Brighter Smiles', 'dental' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"48px","fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}}},"fontFamily":"kanit"} -->
@@ -51,7 +51,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"textAlign":"center","style":{"border":{"radius":{"bottomLeft":"26px","topRight":"26px"}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-text-align-center wp-element-button" style="border-top-right-radius:26px;border-bottom-left-radius:26px">Explore All Blog Post</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-text-align-center wp-element-button" style="border-top-right-radius:26px;border-bottom-left-radius:26px"><?php echo esc_html__( 'Explore All Blog Post', 'dental' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
