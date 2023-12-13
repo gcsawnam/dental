@@ -9,8 +9,8 @@
 <hr class="wp-block-separator alignfull has-text-color has-alpha-channel-opacity has-background is-style-wide" style="background-color:#616a854a;color:#616a854a"/>
 <!-- /wp:separator -->
 
-<!-- wp:spacer {"height":"60px"} -->
-<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"75px"} -->
+<div style="height:75px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:separator {"align":"full","style":{"color":{"background":"#616a854a"}},"className":"is-style-wide"} -->
@@ -24,7 +24,7 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":189,"width":"762px","height":"auto","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/featured_on_resize_1.png" alt="" class="wp-image-189" style="width:762px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="http://localhost/project/wp-content/themes/dental/assets/img/featured_on_resize_1.png" alt="" class="wp-image-189" style="width:762px;height:auto"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

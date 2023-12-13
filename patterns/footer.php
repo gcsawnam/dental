@@ -4,12 +4,12 @@
  * Slug: dental/footer
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"80px","bottom":"40px"}},"color":{"background":"#f2f2f2"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-background" style="background-color:#f2f2f2;padding-top:80px;padding-bottom:40px"><!-- wp:columns -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"80px","bottom":"40px"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"color":{"background":"#f2f2f2"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-background" style="background-color:#f2f2f2;margin-top:0;margin-bottom:0;padding-top:80px;padding-bottom:40px"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontSize":"25px"},"elements":{"link":{"color":{"text":"var:preset|color|button-hover"}}}},"textColor":"button-hover"} -->
-<h2 class="wp-block-heading has-button-hover-color has-text-color has-link-color" style="font-size:25px"><strong><?php echo esc_html__( 'DentiCare', 'dental' ); ?></strong></h2>
+<h2 class="wp-block-heading has-button-hover-color has-text-color has-link-color" style="font-size:25px"><strong>DentiCare</strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"backgroundColor":"hover"} -->
@@ -18,19 +18,19 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}}} -->
-<p style="font-size:16px"><?php echo esc_html__( 'A team of dentists working to ensure you receive the best treatment.', 'dental' ); ?></p>
+<p style="font-size:16px">A team of dentists working to ensure you receive the best treatment.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}},"className":"foot-nav-phon"} -->
-<p class="foot-nav-phon" style="font-size:16px"><?php echo esc_html__( '66383 3762552 62', 'dental' ); ?></p>
+<p class="foot-nav-phon" style="font-size:16px">66383 3762552 62</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}},"className":"foot-nav-mail"} -->
-<p class="foot-nav-mail" style="font-size:16px"><a href="mailto:example@example.com"><?php echo esc_html__( 'example@example.com', 'dental' ); ?></a></p>
+<p class="foot-nav-mail" style="font-size:16px"><a href="mailto:example@example.com">example@example.com</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}},"className":"foot-nav-web"} -->
-<p class="foot-nav-web" style="font-size:16px"><a href="#"><?php echo esc_html__( 'denticare.com', 'dental' ); ?></a></p>
+<p class="foot-nav-web" style="font-size:16px"><a href="#">denticare.com</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -39,7 +39,7 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontSize":"25px"},"elements":{"link":{"color":{"text":"var:preset|color|button-hover"}}}},"textColor":"button-hover"} -->
-<h2 class="wp-block-heading has-button-hover-color has-text-color has-link-color" style="font-size:25px"><strong><?php echo esc_html__( 'About', 'dental' ); ?></strong></h2>
+<h2 class="wp-block-heading has-button-hover-color has-text-color has-link-color" style="font-size:25px"><strong>About</strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"backgroundColor":"hover"} -->
@@ -48,23 +48,23 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}}} -->
-<p style="font-size:16px"><a href="#"><?php echo esc_html__( 'Our Dental Team', 'dental' ); ?></a></p>
+<p style="font-size:16px"><a href="#">Our Dental Team</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}}} -->
-<p style="font-size:16px"><a href="https://denticare.bold-themes.com/allen/services/pricing/"><?php echo esc_html__( 'Pricing', 'dental' ); ?> &amp; <?php echo esc_html__( 'Pricelist', 'dental' ); ?></a></p>
+<p style="font-size:16px"><a href="https://denticare.bold-themes.com/allen/services/pricing/">Pricing &amp; Pricelist</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}}} -->
-<p style="font-size:16px"><a href="https://denticare.bold-themes.com/allen/services/pricing/"><?php echo esc_html__( 'Solutions', 'dental' ); ?></a></p>
+<p style="font-size:16px"><a href="https://denticare.bold-themes.com/allen/services/pricing/">Solutions</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}}} -->
-<p style="font-size:16px"><a href="#"><?php echo esc_html__( 'Dental Services', 'dental' ); ?></a></p>
+<p style="font-size:16px"><a href="#">Dental Services</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}}} -->
-<p style="font-size:16px"><a href="#"><?php echo esc_html__( 'Clients', 'dental' ); ?></a></p>
+<p style="font-size:16px"><a href="#">Clients</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -73,33 +73,29 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontSize":"25px"},"elements":{"link":{"color":{"text":"var:preset|color|button-hover"}}}},"textColor":"button-hover"} -->
-<h2 class="wp-block-heading has-button-hover-color has-text-color has-link-color" style="font-size:25px"><strong><strong><?php echo esc_html__( 'Our Awards', 'dental' ); ?></strong></strong></h2>
+<h2 class="wp-block-heading has-button-hover-color has-text-color has-link-color" style="font-size:25px"><strong><strong>Our Awards</strong></strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"backgroundColor":"hover"} -->
 <hr class="wp-block-separator has-text-color has-hover-color has-alpha-channel-opacity has-hover-background-color has-background"/>
 <!-- /wp:separator -->
 
-<!-- wp:spacer {"height":"29px","style":{"layout":{"flexSize":"29px","selfStretch":"fixed"}}} -->
-<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}}} -->
-<p style="font-size:16px"><?php echo esc_html__( 'DentiCare is a multiple award winner', 'dental' ); ?></p>
+<!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}}} -->
+<p style="font-size:16px">DentiCare is a multiple award winner</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"20px"}}} -->
-<p class="has-text-align-center" style="font-size:20px"><?php echo esc_html__( 'Best Patient Care', 'dental' ); ?>&nbsp;<strong><?php echo esc_html__( '2017', 'dental' ); ?></strong></p>
+<div class="wp-block-group"><!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"20px"}}} -->
+<p class="has-text-align-left" style="font-size:20px">Best Patient Care&nbsp;<strong>2017</strong></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"20px"}}} -->
-<p class="has-text-align-center" style="font-size:20px"><?php echo esc_html__( 'Best Practice', 'dental' ); ?> &amp; <?php echo esc_html__( 'Team', 'dental' ); ?>&nbsp;<strong><?php echo esc_html__( '2016', 'dental' ); ?></strong></p>
+<!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"20px"}}} -->
+<p class="has-text-align-left" style="font-size:20px">Best Practice &amp; Team&nbsp;<strong>2016</strong></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"20px"}}} -->
-<p class="has-text-align-center" style="font-size:20px"><?php echo esc_html__( 'Best Patient Care', 'dental' ); ?>&nbsp;<strong><?php echo esc_html__( '2014', 'dental' ); ?></strong></p>
+<!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"20px"}}} -->
+<p class="has-text-align-left" style="font-size:20px">Best Patient Care&nbsp;<strong>2014</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -109,7 +105,7 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontSize":"25px"},"elements":{"link":{"color":{"text":"var:preset|color|button-hover"}}}},"textColor":"button-hover"} -->
-<h2 class="wp-block-heading has-button-hover-color has-text-color has-link-color" style="font-size:25px"><strong><strong><?php echo esc_html__( 'Social Networks', 'dental' ); ?></strong></strong></h2>
+<h2 class="wp-block-heading has-button-hover-color has-text-color has-link-color" style="font-size:25px"><strong><strong>Social Networks</strong></strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"backgroundColor":"hover"} -->
@@ -117,7 +113,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"}}} -->
-<p style="font-size:16px"><?php echo esc_html__( 'Visit DentiCare on these social links and connect with us. Make sure to follow our accounts for regular updates..', 'dental' ); ?></p>
+<p style="font-size:16px">Visit DentiCare on these social links and connect with us. Make sure to follow our accounts for regular updates..</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"13px","style":{"layout":{"flexSize":"13px","selfStretch":"fixed"}}} -->
@@ -133,44 +129,6 @@
 
 <!-- wp:social-link {"url":"#","service":"pinterest"} /--></ul>
 <!-- /wp:social-links --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"backgroundColor":"button-hover","layout":{"type":"default"}} -->
-<div class="wp-block-group has-button-hover-background-color has-background"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"40%"} -->
-<div class="wp-block-column" style="flex-basis:40%"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontSize":"16px"}},"textColor":"background"} -->
-<p class="has-background-color has-text-color has-link-color" style="font-size:16px"><?php echo esc_html__( 'Copyright 2020 by', 'dental' ); ?>&nbsp;<strong><?php echo esc_html__( 'BoldThemes', 'dental' ); ?></strong><?php echo esc_html__( '. All rights reserved.', 'dental' ); ?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"60%"} -->
-<div class="wp-block-column" style="flex-basis:60%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontSize":"16px"}},"textColor":"background"} -->
-<p class="has-background-color has-text-color has-link-color" style="font-size:16px"><a href="#"><?php echo esc_html__( 'ABOUT US', 'dental' ); ?></a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontSize":"16px"}},"textColor":"background"} -->
-<p class="has-background-color has-text-color has-link-color" style="font-size:16px"><a href="#"><?php echo esc_html__( 'SERVICES', 'dental' ); ?></a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontSize":"16px"}},"textColor":"background"} -->
-<p class="has-background-color has-text-color has-link-color" style="font-size:16px"><a href="#"><?php echo esc_html__( 'PAGES', 'dental' ); ?></a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontSize":"16px"}},"textColor":"background"} -->
-<p class="has-background-color has-text-color has-link-color" style="font-size:16px"><a href="#"><?php echo esc_html__( 'PORTFOLIO', 'dental' ); ?></a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontSize":"16px"}},"textColor":"background"} -->
-<p class="has-background-color has-text-color has-link-color" style="font-size:16px"><a href="#"><?php echo esc_html__( 'NEWS', 'dental' ); ?></a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontSize":"16px"}},"textColor":"background"} -->
-<p class="has-background-color has-text-color has-link-color" style="font-size:16px"><a href="#"><?php echo esc_html__( 'SHOP', 'dental' ); ?></a></p>
-<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

@@ -5,21 +5,21 @@
  */
 ?>
 <!-- wp:group {"style":{"color":{"background":"#f0f5f5"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-background" style="background-color:#f0f5f5"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group has-background" style="background-color:#f0f5f5"><!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontSize":"39px","fontStyle":"normal","fontWeight":"300"},"color":{"text":"#343434"},"elements":{"link":{"color":{"text":"#343434"}}}}} -->
-<h2 class="wp-block-heading has-text-color has-link-color" style="color:#343434;font-size:39px;font-style:normal;font-weight:300"><?php echo esc_html__( 'Dental Care is not', 'dental' ); ?></h2>
+<h2 class="wp-block-heading has-text-color has-link-color" style="color:#343434;font-size:39px;font-style:normal;font-weight:300">Dental Care is not</h2>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"style":{"typography":{"fontSize":"39px","fontStyle":"normal","fontWeight":"700"},"color":{"text":"#00bcd5"},"elements":{"link":{"color":{"text":"#00bcd5"}}}}} -->
-<h2 class="wp-block-heading has-text-color has-link-color" style="color:#00bcd5;font-size:39px;font-style:normal;font-weight:700"><strong><?php echo esc_html__( 'Expensive...Neglet is', 'dental' ); ?></strong></h2>
+<!-- wp:heading {"style":{"typography":{"fontSize":"39px","fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|hover"}}}},"textColor":"hover"} -->
+<h2 class="wp-block-heading has-hover-color has-text-color has-link-color" style="font-size:39px;font-style:normal;font-weight:700"><strong>Expensive...Neglet is</strong></h2>
 <!-- /wp:heading --></div>
-<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"300"},"color":{"text":"#959595"},"elements":{"link":{"color":{"text":"#959595"}}}}} -->
-<p class="has-text-align-center has-text-color has-link-color" style="color:#959595;font-style:normal;font-weight:300"><?php echo esc_html__( 'Healthy Lifestyle - Prerequisite for dental hygiene', 'dental' ); ?></p>
-<!-- /wp:paragraph -->
+<p class="has-text-align-center has-text-color has-link-color" style="color:#959595;font-style:normal;font-weight:300">Healthy Lifestyle - Prerequisite for dental hygiene</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 
 <!-- wp:spacer {"height":"36px"} -->
 <div style="height:36px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -29,11 +29,11 @@
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"background","layout":{"type":"default"}} -->
 <div class="wp-block-group has-background-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"align":"center","id":11051,"width":"50px","height":"50px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/tooth.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost/project/wp-content/themes/dental/assets/img/d8.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"15px"}}} -->
-<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600"><?php echo esc_html__( 'Awesome Service', 'dental' ); ?></h4>
+<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600">Awesome Service</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -41,11 +41,11 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"background","layout":{"type":"default"}} -->
 <div class="wp-block-group has-background-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"align":"center","id":11051,"width":"50px","height":"50px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/tooth.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost/project/wp-content/themes/dental/assets/img/d7.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"15px"}}} -->
-<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600"><?php echo esc_html__( 'Awesome Service', 'dental' ); ?></h4>
+<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600">Basic Gumcare</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -53,11 +53,12 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"background","layout":{"type":"default"}} -->
 <div class="wp-block-group has-background-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"align":"center","id":11051,"width":"50px","height":"50px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/tooth.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost/project/wp-content/themes/dental/assets/img/d6.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"15px"}}} -->
-<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600"><?php echo esc_html__( 'Awesome Service', 'dental' ); ?></h4>
+<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600">
+First Class Support</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -65,11 +66,11 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"background","layout":{"type":"default"}} -->
 <div class="wp-block-group has-background-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"align":"center","id":11051,"width":"50px","height":"50px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/tooth.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost/project/wp-content/themes/dental/assets/img/d5.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"15px"}}} -->
-<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600"><?php echo esc_html__( 'Awesome Service', 'dental' ); ?></h4>
+<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600">Crowns &amp; Caps</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -79,11 +80,11 @@
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"background","layout":{"type":"default"}} -->
 <div class="wp-block-group has-background-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"align":"center","id":11051,"width":"50px","height":"50px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/tooth.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost/project/wp-content/themes/dental/assets/img/d4.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"15px"}}} -->
-<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600"><?php echo esc_html__( 'Awesome Service', 'dental' ); ?></h4>
+<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600">Root Canels</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -91,11 +92,11 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"background","layout":{"type":"default"}} -->
 <div class="wp-block-group has-background-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"align":"center","id":11051,"width":"50px","height":"50px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/tooth.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost/project/wp-content/themes/dental/assets/img/d3.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"15px"}}} -->
-<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600"><?php echo esc_html__( 'Awesome Service', 'dental' ); ?></h4>
+<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600">Sealants</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -103,11 +104,11 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"background","layout":{"type":"default"}} -->
 <div class="wp-block-group has-background-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"align":"center","id":11051,"width":"50px","height":"50px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/tooth.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost/project/wp-content/themes/dental/assets/img/d2.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"15px"}}} -->
-<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600"><?php echo esc_html__( 'Awesome Service', 'dental' ); ?></h4>
+<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600">Braces &amp; implants</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -115,11 +116,11 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"background","layout":{"type":"default"}} -->
 <div class="wp-block-group has-background-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"align":"center","id":11051,"width":"50px","height":"50px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/img/tooth.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost/project/wp-content/themes/dental/assets/img/d1.png" alt="" class="wp-image-11051" style="object-fit:cover;width:50px;height:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"15px"}}} -->
-<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600"><?php echo esc_html__('Awesome Service', 'dental' ); ?></h4>
+<h4 class="wp-block-heading has-text-align-center" style="font-size:15px;font-style:normal;font-weight:600">Veneers</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -129,3 +130,7 @@
 <div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:group -->
+
+<!-- wp:spacer {"height":"75px"} -->
+<div style="height:75px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->

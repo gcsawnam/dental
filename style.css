@@ -493,7 +493,7 @@ html {
   }
   span.wp-block-getwid-accordion__icon {
     padding: 9px;
-    background:#4851D5;
+    background:#383A53;
     border-radius: 50px;
   }
   i.fas {
@@ -710,7 +710,7 @@ body {
   top: -60px;
 }
 .wp-block-getwid-accordion .wp-block-getwid-accordion__header-wrapper {
-  background: #003365;
+  background: #4CABDE;
 }
 /* single post css goes here  */
 li:nth-child(odd) 
@@ -738,3 +738,6 @@ li:nth-child(even)
   overflow: hidden;
 }
 
+.wp-block-social-links li a svg path{
+  fill: #000;
+}
