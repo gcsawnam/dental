@@ -9,10 +9,8 @@
                 DECLARATIONS
       ------------------------------------------------*/
       var scroll = $(window).scrollTop();
-      var scrollup = $('.boost-scrool-top');
-      /*------------------------------------------------
-                  BACK TO TOP
-      ------------------------------------------------*/
+      var scrollup = $('.dental-scrool-top');
+     
       scrollup.click(function () {
         $('html, body').animate({
           scrollTop: '0px'

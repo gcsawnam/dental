@@ -82,22 +82,21 @@ span.page-numbers.dots + a.page-numbers{
     margin: 10px 4px;
 }
 
+
 /* scrool to top */
-.boost-scrool-top::before{
-    font-size: 22px;
-    padding: 3px 17px;
+.dental-scrool-top::before{
+    padding: 10px 13px;
+    font-size: 17px;
+    padding: 8px 13px;
     cursor: pointer;
-    background: var(--wp--preset--color--hover);
+    background:red;
     color: white;
-    content: "\f106"; /* Specify the Unicode character for the desired icon */
-    font-family: "Font Awesome 5 Free";
+	content: '\f343'; 
+	font-family: 'dashicons';
     font-weight: 600;
     position: fixed;
     bottom: 50px;
     right: 30px;
-}
-.boost-scrool-top:hover::before{
-  background: var(--wp--preset--color--button-hover);
 }
 
 /* scrool to top */
